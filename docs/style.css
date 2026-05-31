@@ -1,9 +1,87 @@
 body { 
-    margin: 0; 
+    background-color: rgb(222, 226, 205);
+    font-size: large;
 }
 
-#screen {
+#screen, header, footer {
     width: 100%;
-    background-color: rgb(194, 182, 167);
-    
+}
+
+header {
+    background-color: rgb(185, 194, 144);
+    margin: 2%;
+    padding: 1%;
+}
+
+footer {
+    background-color: rgb(185, 194, 144);
+    margin: 2%;
+}
+
+#about {
+    display: flex;
+    gap: 4%;
+    background-color: rgb(185, 194, 144);
+    font-size: large;
+    padding: 2%;
+    margin: 2%;
+}
+
+#socials {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(185, 194, 144);
+    padding: 2%;
+    margin: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(131, 121, 35);
+}
+
+#socials a {
+    text-align: center;
+}
+
+#socials a img {
+    margin-top: 2%;
+}
+
+#commissions{
+    background-color: rgb(185, 194, 144);
+    font-size: medium;
+    padding: 2%;
+    margin: 2%;
+}
+
+#table {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+#art {
+    background-color: rgb(185, 194, 144);
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+}
+
+#writing {
+    background-color: rgb(185, 194, 144);
+    padding: 2%;
+    margin: 2%;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+}
+
+#gallery img {
+    width: 25%;
 }
