@@ -86,3 +86,13 @@ a {
 #gallery img {
     width: 25%;
 }
+
+#writing-archive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#writing-archive select {
+    margin: 3%;
+}
