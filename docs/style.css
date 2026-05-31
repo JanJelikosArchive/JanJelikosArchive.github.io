@@ -1,4 +1,9 @@
+body { 
+    margin: 0;   /* Remove body margins */
+}
+
 #screen {
     width: 99%;
     background-color: rgb(194, 182, 167);
+    
 }
