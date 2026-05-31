@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1> Nothing </h1>
+<body id="bod">
+
+    <script>
+
+        const isSmallScreen = () => {
+                return window.innerWidth <= 768;
+            };
+
+            if (isSmallScreen()) {
+                console.log("Small screen detected");
+                 document.getElementById("bod").width = "768"; 
+            }
+
+    </script>
+    <!-- 1280 × 720 -->
+    <div id="screen">
+        <h1> Nothing </h1>
+    </div>
+    
 </body>
 </html>
