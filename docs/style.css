@@ -3,11 +3,12 @@ body {
     font-size: large;
 }
 
-#screen, header, footer {
+#screen{
     width: 100%;
 }
 
 header {
+    width: 99;
     background-color: rgb(185, 194, 144);
     margin: 2%;
     padding: 1%;
