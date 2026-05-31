@@ -28,7 +28,7 @@ footer {
 }
 
 #socials {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(185, 194, 144);
@@ -46,7 +46,7 @@ a {
 }
 
 #socials a img {
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 #commissions{
